@@ -5,7 +5,7 @@ from cog import BasePredictor, Input
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.1"
+MODEL_NAME = "ehartford/dolphin-2.1-mistral-7b" 
 MODEL_CACHE = "model-cache"
 TOKEN_CACHE = "token-cache"
 
